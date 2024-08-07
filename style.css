@@ -33,4 +33,7 @@ input:invalid ~ span::after {
     padding-left: 5px;
     position: absolute;
   }
+a{
+    text-decoration: none;
+}
   
