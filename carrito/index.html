@@ -8,18 +8,18 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>mi web | ecommerce | carrito</title>
+    <title>mi web | ecommerce | productos-carrito</title>
 </head>
 
 <body>
+<!-- header -->
     <header class="container-fluid bg-dark position-sticky top-0">
 
         <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <a class="nav-link " id="pills-home-tab" data-bs-toggle="pill"
-                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                    aria-selected="true">Home</a>
-            </li>
+            <!-- <li class="nav-item" role="presentation">
+            <a class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            </li> --> <!-- boton eliminado -->
             <li class="nav-item" role="presentation">
                 <a class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
                     type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
@@ -31,10 +31,19 @@
         </ul>
     </header>
 
-    <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">1
+<!-- alert -->
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+        Producto Añadido al carrito!
+        </div>
+        <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+          Producto removido!
         </div>
 
+<!-- productos -->
+    <div class="tab-content" id="pills-tabContent">
+       <!--  <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">1
+        </div>
+ -->
         <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel"
             aria-labelledby="pills-profile-tab" tabindex="0">
             <h2 class="h4 m-4 text-primary">Todos Nuestros Productos</h2>
@@ -49,7 +58,7 @@
                             <p class="card-text text-white-50 description">Set Contiene: 1 escalera de coordinación, 2
                                 tobilleras, 1 step, 2 mancuernas, 12 conos tortuga y 1 tabla de equilibrio.
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 74.950</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 74950</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -65,7 +74,7 @@
                             <p class="card-text text-white-50 description">Set Contiene: 1 pesa rusa 4kgs, 1 soga, 4
                                 conos tortuga, 1 banda circular para gluteos y 1 banda larga con manijas
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 18.950</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 18950</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -80,7 +89,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Set contine: 2 mancuernas de 1kg, 2
                                 tobilleras de 1kg. Colchoneta plegable 100cms x 50cms x 3cms</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 30.000</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 30000</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -95,7 +104,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Set contiene: 1 banda circular de latex
                                 tension media, 2 tobilleras recargables de 2kgs y 2 mancuernas de 3kgrs.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 12.950</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 12950</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -110,7 +119,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Set contiene: 2 mancuernas de 2 kgs, 2
                                 tobilleras de 2kgs, 1 colchoneta de 100x50x3cm y 1 soga de saltar con puño soft.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 36.950</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 36950</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -125,7 +134,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Set contiene: 1 escalera de coordinación, 2
                                 mini bosus, 10 conos tortuga y 1 valla de coordinación de 1mt regulable.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 36.9500</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 369500</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -140,7 +149,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Tobilleras de 2kgs regulables, con cierre,
                                 rellenas de arena, 40x15cms. Fabricadas con hilo de nylon y doble costura. </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 8.950</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 8950</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -156,7 +165,7 @@
                             <p class="card-text text-white-50 description">Set contiene: colchoneta plegable de
                                 100x50x3cms (plegada 33x50cms) y 2 mancuernas de 3kgs.
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 28.950</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 28950</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -171,7 +180,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Banda circular, 30x5cm, latex, intensidad
                                 fuerte, grosor 1,2mm. Interior texturizado para evitar molestias. </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 8.950</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 8950</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -191,7 +200,7 @@
                                 Dosis recomendada: 2 comprimidos diarios.
 
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -208,7 +217,7 @@
 
                                 Precio Regular $11,900❌
                                 Dosis recomendada: 2 comprimidos diarios.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -226,7 +235,7 @@
                                 Precio Regular $12,900❌
                                 Dosis recomendada: 2 cucharadas en un vaso de agua, jugo o yogurt.
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 8.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 8900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -239,9 +248,10 @@
                         <h5 class="card-title pt-2 text-center text-primary">Gladiador</h5>
                         <img src="./img/suplemento4.jpg" class="card-img-top" alt="...">
                         <div class="card-body  ">
-                            <p class="card-text text-white-50 description">Gladiador Immune Support+ 30 comp. masticables. Dosis recomendada: 1 comp. por día. Precio Regular $9900❌
+                            <p class="card-text text-white-50 description">Gladiador Immune Support+ 30 comp.
+                                masticables. Dosis recomendada: 1 comp. por día. Precio Regular $9900❌
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.990</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7990</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -256,7 +266,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Flash+ 30 comprimidos masticables. Dosis
                                 recomendada: 1 comp. mast. por día.Precio Regular $9900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.990</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7990</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -269,8 +279,9 @@
                         <h5 class="card-title pt-2 text-center text-primary">Flexus</h5>
                         <img src="./img/suplemento6.jpg" class="card-img-top" alt="...">
                         <div class="card-body  ">
-                            <p class="card-text text-white-50 description">Flexus 30 comprimidos masticables. Dosis recomendada: 1 comp. mast. por día.Precio. Regular $9900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.990</span></h5>
+                            <p class="card-text text-white-50 description">Flexus 30 comprimidos masticables. Dosis
+                                recomendada: 1 comp. mast. por día.Precio. Regular $9900❌</p>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7990</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -285,7 +296,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Isoflavona 60 comprimidos. Precio Regular
                                 $11.900❌ Dosis recomendada: 2 cápsulas blandas por día.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -300,7 +311,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Multivitamínico 30 cápsulas. Precio Regular
                                 $16900❌ Dosis recomendada: 1 comprimido a la mañana.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 11.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 11900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -315,7 +326,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Tratamiento antiedad. Precio Regular $24900❌
                                 Dosis recomendada: 5gr en un vaso con 200ml de agua.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 19.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 19900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -330,7 +341,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Activa 120 comprimidos. Precio Regular
                                 $11900❌ Dosis recomendada: 4 comprimidos por día.</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -345,7 +356,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Krill+ 30 comprimidos. Dosis recomendada: 2
                                 cápsulas blandas por día. Precio Regular $29900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 22.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 22900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -361,7 +372,7 @@
                             <p class="card-text text-white-50 description">Max+ Sweet Cookies Bebible Polvo 500gr. Forma
                                 de uso 4 medidas en un vaso de agua, leche o yogurt de 250ml.
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 24.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 24900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -377,7 +388,7 @@
                             <p class="card-text text-white-50 description">Softgel cápsulas 30 unidades.
                                 Dosis Recomendada 2 cápsulas blandas por día.
                                 Precio regular $12.900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 9.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 9900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -392,7 +403,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Redubell 100gr. Dosis recomendada: 2
                                 cucharadas en un vaso de agua por día. Precio Regular $12900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 9.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 9900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -437,7 +448,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Algas Slim 60 comprimidos. Dosis recomendada:
                                 2 comprimidos por día. Precio Regular $12900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 9.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 9900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -452,7 +463,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Vitafit 30 comprimidos masticables. Dosis
                                 recomendada: 1 comp. por día. Precio Regular $9.900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.990</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7990</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -467,7 +478,7 @@
                         <div class="card-body  ">
                             <p class="card-text text-white-50 description">Cla 1000mg 30 comprimidos. Dosis recomendada:
                                 2 cápsulas blandas por día. Precio Regular $12900❌</p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 9.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 9900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -499,7 +510,7 @@
                                 Crema para masajes efecto calor. Alivia las contracturas y tensiones musculares. Precio
                                 Regular $15.000❌
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 9.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 9900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -516,7 +527,7 @@
                                 prevenir chichones y moretones.
                                 Precio Regular $14.000❌
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 8.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 8900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -533,7 +544,7 @@
                                 hinchazón, rápido alivio y relajación
                                 Precio Regular $11500❌
                             </p>
-                            <h5 class="text-primary">Precio: <span class="precio">$ 7.900</span></h5>
+                            <h5 class="text-primary">Precio: <span class="precio">$ 7900</span></h5>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary button">Añadir a Carrito</button>
                             </div>
@@ -545,10 +556,44 @@
 
         </div>
 
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">3
-        </div>
     </div>
+<!-- carrito -->
+        <div class="tab-pane fade container" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 
+            <br>
+
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr class="text-primary">
+                        <th scope="col">#</th>
+                        <th scope="col">Productos</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                   
+
+                </tbody>
+            </table>
+
+            <br><br>
+
+            <div class="row mx-4">
+                <div class="col">
+                    <h3 class="itemCartTotal text-white">Total: 0</h3>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button class="btn btn-success">COMPRA</button>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+<!-- footer -->
+    <footer class="bg-dark p-3 mt-5">
+        <a href="../index.html"><p class="text-center m-0 text-muted text-white-50">E-COMMERCE FUNCIONAL BY CHINA</p></a>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
